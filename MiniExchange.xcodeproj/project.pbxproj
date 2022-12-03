@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C840D8E293B80050089B3E3 /* MiniExchangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840D8D293B80050089B3E3 /* MiniExchangeApp.swift */; };
+		0C840D90293B80050089B3E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840D8F293B80050089B3E3 /* ContentView.swift */; };
+		0C840D92293B80060089B3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C840D91293B80060089B3E3 /* Assets.xcassets */; };
+		0C840D95293B80060089B3E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C840D94293B80060089B3E3 /* Preview Assets.xcassets */; };
+		0C840D97293B80060089B3E3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840D96293B80060089B3E3 /* Persistence.swift */; };
+		0C840D9A293B80060089B3E3 /* MiniExchange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C840D98293B80060089B3E3 /* MiniExchange.xcdatamodeld */; };
+		0C840DA4293B80070089B3E3 /* MiniExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DA3293B80070089B3E3 /* MiniExchangeTests.swift */; };
+		0C840DBF293B802A0089B3E3 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DBE293B802A0089B3E3 /* CoinModel.swift */; };
+		0C840DC2293B806F0089B3E3 /* ExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DC1293B806F0089B3E3 /* ExchangeView.swift */; };
+		0C840DC4293B80890089B3E3 /* CostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DC3293B80890089B3E3 /* CostListView.swift */; };
+		0C840DC6293B80A20089B3E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DC5293B80A20089B3E3 /* HomeView.swift */; };
+		0C840DC8293B80BB0089B3E3 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DC7293B80BB0089B3E3 /* ResultView.swift */; };
+		0C840DCB293B80E00089B3E3 /* CostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DCA293B80E00089B3E3 /* CostListViewModel.swift */; };
+		0C840DCD293B80F80089B3E3 /* ExchangeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DCC293B80F80089B3E3 /* ExchangeViewModel.swift */; };
+		0C840DD1293B812D0089B3E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C840DD0293B812D0089B3E3 /* Localizable.strings */; };
+		0C840DD3293B81400089B3E3 /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DD2293B81400089B3E3 /* LocaleKeys.swift */; };
+		0C840DD6293B81620089B3E3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DD5293B81620089B3E3 /* Colors.swift */; };
+		0C840DD8293B81840089B3E3 /* NumbersOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DD7293B81840089B3E3 /* NumbersOnly.swift */; };
+		0C840DDB293B81A60089B3E3 /* ExDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DDA293B81A60089B3E3 /* ExDivider.swift */; };
+		0C840DDD293B81BB0089B3E3 /* GenericButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DDC293B81BB0089B3E3 /* GenericButton.swift */; };
+		0C840DDF293B81CF0089B3E3 /* CostButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DDE293B81CF0089B3E3 /* CostButton.swift */; };
+		0C840DE1293B81E70089B3E3 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DE0293B81E70089B3E3 /* CustomAlertView.swift */; };
+		0C840DE4293B82210089B3E3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C840DE3293B82210089B3E3 /* Colors.xcassets */; };
+		0C840DE6293B82AA0089B3E3 /* UnitTestUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C840DE5293B82AA0089B3E3 /* UnitTestUITest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C840DA0293B80070089B3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C840D82293B80050089B3E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C840D89293B80050089B3E3;
+			remoteInfo = MiniExchange;
+		};
+		0C840DAA293B80070089B3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C840D82293B80050089B3E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C840D89293B80050089B3E3;
+			remoteInfo = MiniExchange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C840D8A293B80050089B3E3 /* MiniExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C840D8D293B80050089B3E3 /* MiniExchangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniExchangeApp.swift; sourceTree = "<group>"; };
+		0C840D8F293B80050089B3E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0C840D91293B80060089B3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C840D94293B80060089B3E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C840D96293B80060089B3E3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		0C840D99293B80060089B3E3 /* MiniExchange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniExchange.xcdatamodel; sourceTree = "<group>"; };
+		0C840D9F293B80070089B3E3 /* MiniExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniExchangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C840DA3293B80070089B3E3 /* MiniExchangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniExchangeTests.swift; sourceTree = "<group>"; };
+		0C840DA9293B80070089B3E3 /* MiniExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniExchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C840DBE293B802A0089B3E3 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		0C840DC1293B806F0089B3E3 /* ExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeView.swift; sourceTree = "<group>"; };
+		0C840DC3293B80890089B3E3 /* CostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostListView.swift; sourceTree = "<group>"; };
+		0C840DC5293B80A20089B3E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0C840DC7293B80BB0089B3E3 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		0C840DCA293B80E00089B3E3 /* CostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostListViewModel.swift; sourceTree = "<group>"; };
+		0C840DCC293B80F80089B3E3 /* ExchangeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewModel.swift; sourceTree = "<group>"; };
+		0C840DD0293B812D0089B3E3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		0C840DD2293B81400089B3E3 /* LocaleKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleKeys.swift; sourceTree = "<group>"; };
+		0C840DD5293B81620089B3E3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		0C840DD7293B81840089B3E3 /* NumbersOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersOnly.swift; sourceTree = "<group>"; };
+		0C840DDA293B81A60089B3E3 /* ExDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExDivider.swift; sourceTree = "<group>"; };
+		0C840DDC293B81BB0089B3E3 /* GenericButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericButton.swift; sourceTree = "<group>"; };
+		0C840DDE293B81CF0089B3E3 /* CostButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostButton.swift; sourceTree = "<group>"; };
+		0C840DE0293B81E70089B3E3 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		0C840DE3293B82210089B3E3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		0C840DE5293B82AA0089B3E3 /* UnitTestUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestUITest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C840D87293B80050089B3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C840D9C293B80070089B3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C840DA6293B80070089B3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C840D81293B80050089B3E3 = {
+			isa = PBXGroup;
+			children = (
+				0C840D8C293B80050089B3E3 /* MiniExchange */,
+				0C840DA2293B80070089B3E3 /* MiniExchangeTests */,
+				0C840DAC293B80070089B3E3 /* MiniExchangeUITests */,
+				0C840D8B293B80050089B3E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C840D8B293B80050089B3E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C840D8A293B80050089B3E3 /* MiniExchange.app */,
+				0C840D9F293B80070089B3E3 /* MiniExchangeTests.xctest */,
+				0C840DA9293B80070089B3E3 /* MiniExchangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C840D8C293B80050089B3E3 /* MiniExchange */ = {
+			isa = PBXGroup;
+			children = (
+				0C840DE2293B82050089B3E3 /* Resources */,
+				0C840DD9293B81990089B3E3 /* Widget */,
+				0C840DCE293B81120089B3E3 /* Utilities */,
+				0C840DBC293B801A0089B3E3 /* MVVM */,
+				0C840D8D293B80050089B3E3 /* MiniExchangeApp.swift */,
+				0C840D8F293B80050089B3E3 /* ContentView.swift */,
+				0C840D96293B80060089B3E3 /* Persistence.swift */,
+				0C840D98293B80060089B3E3 /* MiniExchange.xcdatamodeld */,
+				0C840D93293B80060089B3E3 /* Preview Content */,
+			);
+			path = MiniExchange;
+			sourceTree = "<group>";
+		};
+		0C840D93293B80060089B3E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0C840D94293B80060089B3E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C840DA2293B80070089B3E3 /* MiniExchangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C840DA3293B80070089B3E3 /* MiniExchangeTests.swift */,
+			);
+			path = MiniExchangeTests;
+			sourceTree = "<group>";
+		};
+		0C840DAC293B80070089B3E3 /* MiniExchangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C840DE5293B82AA0089B3E3 /* UnitTestUITest.swift */,
+			);
+			path = MiniExchangeUITests;
+			sourceTree = "<group>";
+		};
+		0C840DBC293B801A0089B3E3 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				0C840DBD293B801F0089B3E3 /* Model */,
+				0C840DC0293B80490089B3E3 /* View */,
+				0C840DC9293B80CB0089B3E3 /* ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		0C840DBD293B801F0089B3E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C840DBE293B802A0089B3E3 /* CoinModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C840DC0293B80490089B3E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C840DC1293B806F0089B3E3 /* ExchangeView.swift */,
+				0C840DC3293B80890089B3E3 /* CostListView.swift */,
+				0C840DC5293B80A20089B3E3 /* HomeView.swift */,
+				0C840DC7293B80BB0089B3E3 /* ResultView.swift */,
+				0C840DE0293B81E70089B3E3 /* CustomAlertView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C840DC9293B80CB0089B3E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0C840DCA293B80E00089B3E3 /* CostListViewModel.swift */,
+				0C840DCC293B80F80089B3E3 /* ExchangeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0C840DCE293B81120089B3E3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0C840DD4293B81530089B3E3 /* Extensions */,
+				0C840DCF293B81200089B3E3 /* Locale */,
+				0C840DD7293B81840089B3E3 /* NumbersOnly.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0C840DCF293B81200089B3E3 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				0C840DD0293B812D0089B3E3 /* Localizable.strings */,
+				0C840DD2293B81400089B3E3 /* LocaleKeys.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		0C840DD4293B81530089B3E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0C840DD5293B81620089B3E3 /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0C840DD9293B81990089B3E3 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				0C840DDA293B81A60089B3E3 /* ExDivider.swift */,
+				0C840DDC293B81BB0089B3E3 /* GenericButton.swift */,
+				0C840DDE293B81CF0089B3E3 /* CostButton.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		0C840DE2293B82050089B3E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C840D91293B80060089B3E3 /* Assets.xcassets */,
+				0C840DE3293B82210089B3E3 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C840D89293B80050089B3E3 /* MiniExchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C840DB3293B80070089B3E3 /* Build configuration list for PBXNativeTarget "MiniExchange" */;
+			buildPhases = (
+				0C840D86293B80050089B3E3 /* Sources */,
+				0C840D87293B80050089B3E3 /* Frameworks */,
+				0C840D88293B80050089B3E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniExchange;
+			productName = MiniExchange;
+			productReference = 0C840D8A293B80050089B3E3 /* MiniExchange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C840D9E293B80070089B3E3 /* MiniExchangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C840DB6293B80070089B3E3 /* Build configuration list for PBXNativeTarget "MiniExchangeTests" */;
+			buildPhases = (
+				0C840D9B293B80070089B3E3 /* Sources */,
+				0C840D9C293B80070089B3E3 /* Frameworks */,
+				0C840D9D293B80070089B3E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C840DA1293B80070089B3E3 /* PBXTargetDependency */,
+			);
+			name = MiniExchangeTests;
+			productName = MiniExchangeTests;
+			productReference = 0C840D9F293B80070089B3E3 /* MiniExchangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C840DA8293B80070089B3E3 /* MiniExchangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C840DB9293B80070089B3E3 /* Build configuration list for PBXNativeTarget "MiniExchangeUITests" */;
+			buildPhases = (
+				0C840DA5293B80070089B3E3 /* Sources */,
+				0C840DA6293B80070089B3E3 /* Frameworks */,
+				0C840DA7293B80070089B3E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C840DAB293B80070089B3E3 /* PBXTargetDependency */,
+			);
+			name = MiniExchangeUITests;
+			productName = MiniExchangeUITests;
+			productReference = 0C840DA9293B80070089B3E3 /* MiniExchangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C840D82293B80050089B3E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0C840D89293B80050089B3E3 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0C840D9E293B80070089B3E3 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0C840D89293B80050089B3E3;
+					};
+					0C840DA8293B80070089B3E3 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0C840D89293B80050089B3E3;
+					};
+				};
+			};
+			buildConfigurationList = 0C840D85293B80050089B3E3 /* Build configuration list for PBXProject "MiniExchange" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C840D81293B80050089B3E3;
+			productRefGroup = 0C840D8B293B80050089B3E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C840D89293B80050089B3E3 /* MiniExchange */,
+				0C840D9E293B80070089B3E3 /* MiniExchangeTests */,
+				0C840DA8293B80070089B3E3 /* MiniExchangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C840D88293B80050089B3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C840D95293B80060089B3E3 /* Preview Assets.xcassets in Resources */,
+				0C840DE4293B82210089B3E3 /* Colors.xcassets in Resources */,
+				0C840DD1293B812D0089B3E3 /* Localizable.strings in Resources */,
+				0C840D92293B80060089B3E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C840D9D293B80070089B3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C840DA7293B80070089B3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C840D86293B80050089B3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C840DC4293B80890089B3E3 /* CostListView.swift in Sources */,
+				0C840DBF293B802A0089B3E3 /* CoinModel.swift in Sources */,
+				0C840DCD293B80F80089B3E3 /* ExchangeViewModel.swift in Sources */,
+				0C840DD3293B81400089B3E3 /* LocaleKeys.swift in Sources */,
+				0C840DC8293B80BB0089B3E3 /* ResultView.swift in Sources */,
+				0C840DCB293B80E00089B3E3 /* CostListViewModel.swift in Sources */,
+				0C840DC2293B806F0089B3E3 /* ExchangeView.swift in Sources */,
+				0C840DDD293B81BB0089B3E3 /* GenericButton.swift in Sources */,
+				0C840D97293B80060089B3E3 /* Persistence.swift in Sources */,
+				0C840DD6293B81620089B3E3 /* Colors.swift in Sources */,
+				0C840D9A293B80060089B3E3 /* MiniExchange.xcdatamodeld in Sources */,
+				0C840DD8293B81840089B3E3 /* NumbersOnly.swift in Sources */,
+				0C840DE1293B81E70089B3E3 /* CustomAlertView.swift in Sources */,
+				0C840DC6293B80A20089B3E3 /* HomeView.swift in Sources */,
+				0C840D90293B80050089B3E3 /* ContentView.swift in Sources */,
+				0C840DDB293B81A60089B3E3 /* ExDivider.swift in Sources */,
+				0C840DDF293B81CF0089B3E3 /* CostButton.swift in Sources */,
+				0C840D8E293B80050089B3E3 /* MiniExchangeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C840D9B293B80070089B3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C840DA4293B80070089B3E3 /* MiniExchangeTests.swift in Sources */,
+				0C840DE6293B82AA0089B3E3 /* UnitTestUITest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C840DA5293B80070089B3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C840DA1293B80070089B3E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C840D89293B80050089B3E3 /* MiniExchange */;
+			targetProxy = 0C840DA0293B80070089B3E3 /* PBXContainerItemProxy */;
+		};
+		0C840DAB293B80070089B3E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C840D89293B80050089B3E3 /* MiniExchange */;
+			targetProxy = 0C840DAA293B80070089B3E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C840DB1293B80070089B3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C840DB2293B80070089B3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C840DB4293B80070089B3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MiniExchange/Preview Content\"";
+				DEVELOPMENT_TEAM = UB96AD9NKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafaalperaydin.MiniExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C840DB5293B80070089B3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MiniExchange/Preview Content\"";
+				DEVELOPMENT_TEAM = UB96AD9NKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafaalperaydin.MiniExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C840DB7293B80070089B3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UB96AD9NKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafaalperaydin.MiniExchangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniExchange.app/MiniExchange";
+			};
+			name = Debug;
+		};
+		0C840DB8293B80070089B3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UB96AD9NKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafaalperaydin.MiniExchangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniExchange.app/MiniExchange";
+			};
+			name = Release;
+		};
+		0C840DBA293B80070089B3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UB96AD9NKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafaalperaydin.MiniExchangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiniExchange;
+			};
+			name = Debug;
+		};
+		0C840DBB293B80070089B3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UB96AD9NKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafaalperaydin.MiniExchangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiniExchange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C840D85293B80050089B3E3 /* Build configuration list for PBXProject "MiniExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C840DB1293B80070089B3E3 /* Debug */,
+				0C840DB2293B80070089B3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C840DB3293B80070089B3E3 /* Build configuration list for PBXNativeTarget "MiniExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C840DB4293B80070089B3E3 /* Debug */,
+				0C840DB5293B80070089B3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C840DB6293B80070089B3E3 /* Build configuration list for PBXNativeTarget "MiniExchangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C840DB7293B80070089B3E3 /* Debug */,
+				0C840DB8293B80070089B3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C840DB9293B80070089B3E3 /* Build configuration list for PBXNativeTarget "MiniExchangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C840DBA293B80070089B3E3 /* Debug */,
+				0C840DBB293B80070089B3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0C840D98293B80060089B3E3 /* MiniExchange.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0C840D99293B80060089B3E3 /* MiniExchange.xcdatamodel */,
+			);
+			currentVersion = 0C840D99293B80060089B3E3 /* MiniExchange.xcdatamodel */;
+			path = MiniExchange.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0C840D82293B80050089B3E3 /* Project object */;
+}

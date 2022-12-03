@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  MiniExchange
+
+  Created by MAA on 3.12.2022.
+  
+*/
+
+//* Button
+"exchange" = "Exchange";
+"backToExchange" = "Back To Exchange";
+
+//* Alert Button
+"cancel" = "Cancel";
+"confirm" = "Confirm";
+
+//* Title
+"confirmOperation" = "Confirm Operation";
+"success" = "Success";
